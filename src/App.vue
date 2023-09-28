@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MyUploader />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyUploader from './components/MyUploader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyUploader,
   }
 }
 </script>
